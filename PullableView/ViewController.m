@@ -78,7 +78,7 @@
     [label release];
     
     pullDownView = [[StyledPullableView alloc] initWithFrame:CGRectMake(xOffset, 0, 320, 460)];
-    pullDownView.openedCenter = CGPointMake(160 + xOffset,230);
+    pullDownView.openedCenter = CGPointMake(160 + xOffset, 0);
     pullDownView.closedCenter = CGPointMake(160 + xOffset, -200);
     pullDownView.center = pullDownView.closedCenter;
     
